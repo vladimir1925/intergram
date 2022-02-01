@@ -16,7 +16,7 @@ export default class MessageArea extends Component {
     render(props,{}) {
         const currentTime = new Date();
         return (
-            <ol class="chat">
+            <ol class="VLADIMIR1925">
                 {props.messages.map(({name, text, from, time}) => {
                     if (from === 'visitor') {
                         name = "You";
